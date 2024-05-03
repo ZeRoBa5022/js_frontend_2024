@@ -27,7 +27,7 @@ class ToDoTask extends React.Component {
 			if (res.status  === 200) {
 				console.log('Updated');
 				this.setState({
-				done: !this.state.done
+					done: !this.state.done
 				});
 			}
 			else {
