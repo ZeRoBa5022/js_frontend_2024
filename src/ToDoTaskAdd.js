@@ -10,7 +10,7 @@ class ToDoTaskAddInner extends React.Component {
 		
 		this.state = {
 			name: '',
-			decription: ''
+			description: ''
 		}
 		
 		this.onNameChange = this.onNameChange.bind(this);
